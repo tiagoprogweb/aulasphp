@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loops</title>
+<style>
+    ol li:nth-child(odd) { color: blue; }
+    ol li:nth-child(even) { color: red; }
+</style>
 </head>
 <body>
 <h1>Loops</h1>
@@ -68,6 +72,20 @@ de uma forma que os meses apareçam com
 cores alternadas. Exemplo: janeiro/março em
 azul, fevereiro/abril em vermelho etc.
 </i></p>
+
+<?php
+$meses = [
+    "janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
+];
+?>
+
+<ol>
+<?php foreach($meses as $mes){ ?>
+    <li> <?=$mes?> </li>
+<?php } ?>
+</ol>
+
+
 
 
 </body>
