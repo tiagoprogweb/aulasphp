@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Condicionais</title>
+    <style>
+        .repor { color: red; }
+        .urgente { color: purple; }
+        .normal { color: green; }
+    </style>
 </head>
 <body>
     <h1>Condicionais (if, else, elseif)</h1>
@@ -24,7 +29,7 @@ if($numero > 20){
 <?php
 // Controle de Estoque
 $produto = "Ultrabook Dell";
-$qtdEmEstoque = 0; // o que temos no momento
+$qtdEmEstoque = 10; // o que temos no momento
 $qtdCritica = 2; // mínimo necessário
 ?>
 
@@ -37,12 +42,10 @@ for abaixo da quantidade crítica, então
 o sistema deve avisar e pedir para repor. */
 if( $qtdEmEstoque < $qtdCritica ){
     echo "<p class='repor'>É necessário comprar/repor!</p>";
-
     // Condicional SIMPLES/ANINHADA
     if($qtdEmEstoque === 0){
         echo "<p class='urgente'>URGENTE</p>";
     }
-
 } else {
     /* Caso contrário, simplesmente mostrar
     que o estoque está normal. */
