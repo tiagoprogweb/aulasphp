@@ -31,7 +31,7 @@ Mostre os dados recebidos usando tags HTML.
 
 Faça o preço aparecer formatado em Reais.
 
-Exemplo: se o preço digitado no formulário for **4500.75**, deverá aparecer no HTML como **R$ 4.500,00**.
+Exemplo: se o preço digitado no formulário for **4500.75**, deverá aparecer no HTML como **R$ 4.500,75**.
 
 ---
 
