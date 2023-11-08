@@ -1,4 +1,4 @@
-<?php include "recursos.php"; ?>
+<?php require "recursos.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,6 +24,9 @@ devido ao include) -->
 
 <h3>while</h3>
 <?php
+$teste = "Olá!";
+echo "<script>console.log('$teste')</script>";
+
 $i = 1;
 while($i <= 3){
 ?>
