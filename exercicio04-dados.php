@@ -12,6 +12,16 @@
 <!-- Faça a partir daqui a programação
 necessária para obter os dados vindos do formulário
 e mostrá-los usando elementos HTML (da forma que você quiser). -->
+<?php
+$produto = $_POST["produto"];
+$fabricante = $_POST["fabricante"];
+$preco = $_POST["preco"];
+$descricao = $_POST["descricao"];
+?>
+<p><?=$produto?></p>
+<p><?=$fabricante?></p>
+<p><?=$preco?></p>
+<p><?=$descricao?></p>
     
 </body>
 </html>
