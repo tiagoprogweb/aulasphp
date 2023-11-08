@@ -27,6 +27,12 @@ Abra o arquivo **exercicio04-dados.php** e faça a programação de processament
 
 Mostre os dados recebidos usando tags HTML.
 
+##### DESAFIO PREÇO
+
+Faça o preço aparecer formatado em Reais.
+
+Exemplo: se o preço digitado no formulário for **4500.75**, deverá aparecer no HTML como **R$ 4.500,00**.
+
 ---
 
 ## 31/10/2023
