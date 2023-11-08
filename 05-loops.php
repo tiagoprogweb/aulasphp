@@ -1,3 +1,4 @@
+<?php include "recursos.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,6 +11,13 @@
 </style>
 </head>
 <body>
+<!-- Usando o foreach para acessar os dados
+do array criado em outro arquivo (acessível
+devido ao include) -->
+<?php foreach($linguagens as $linguagem){ ?>
+    <p><i><?=$linguagem?></i></p>
+<?php } ?>
+
 <h1>Loops</h1>
 <hr>
 <h2>Tradicionais: for, while, do/while</h2>
