@@ -1,5 +1,34 @@
 # Exercícios de PHP
 
+## 08/11/2023
+
+### Exercício 4
+
+#### Etapa 01
+
+Abra o arquivo **exercicio04-formulario.php** e analise sua estrutura.
+
+Veja que existe um formulário com campos para para **simulação de cadastro** de produtos:
+
+- Nome do produto - `input text`
+- Fabricante - `select/option`
+- Preço - `input number`
+- Descrição - `textarea`
+- Botão de enviar - `input submit`
+
+##### DESAFIO FABRICANTE
+
+- Crie um array contendo uma lista com os nomes de 4 fabricantes.
+- Usando o `loop foreach`, faça as opções do `select` serem carregadas a partir dos dados do array que você criou.
+
+#### Etapa 02
+
+Abra o arquivo **exercicio04-dados.php** e faça a programação de processamento do formulário considerando o envio/recebimento via POST.
+
+Mostre os dados recebidos usando tags HTML.
+
+---
+
 ## 31/10/2023
 
 ### Exercício 2
